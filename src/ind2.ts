@@ -29,6 +29,8 @@ function getUser({type,name,age,occupation}:User){
     return {type,name,age,occupation}
 
 }
+console.log(getUser(gaurav))
 function getAdmin({type,name,age,role}:Admin){
     return {type,name,age,role}
 }
+console.log(getAdmin(Boos))
